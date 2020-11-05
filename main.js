@@ -4,8 +4,9 @@ const app = Vue.createApp({
         return {
             cart: 0,
             product: 'Socks',
+            brand: 'Nike',
             image: './assets/images/socks_green.jpg',
-            inStock: true,
+            inStock: false,
             details: ['50% cotton', '30% wool', '20% polyester'],
             variants: [
                 { id: 2234, color: 'green', image: './assets/images/socks_green.jpg' },
